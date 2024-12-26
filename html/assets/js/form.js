@@ -19,7 +19,7 @@ document.getElementById("form-contact").addEventListener("submit", function (eve
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("message").value;
 
-    fetch('http://localhost:8080/sendEmail', {
+    fetch('https://portfolio-latest-0xtl.onrender.com/sendEmail', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
