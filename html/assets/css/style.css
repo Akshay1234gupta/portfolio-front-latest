@@ -475,6 +475,7 @@ B. Helpers
     position: absolute;
     width: 100%;
     z-index: -2;
+    min-height: 100vh;
 }
 
 .ts-background .ts-background {
@@ -502,7 +503,7 @@ B. Helpers
     height: 100%;
     overflow: hidden;
     width: 100%;
-    min-height: 100vh;
+
 
 }
 
